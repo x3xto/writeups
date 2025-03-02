@@ -80,3 +80,35 @@ ls
 ![image](https://github.com/user-attachments/assets/2b63aa96-28d3-41f7-bd1b-b889d17615b6)
 
 *Yep. Good to know.*
+
+### Task 4
+
+Download the hash file attached to this task and attempt to crack the MD5 hash. What is the password?
+```
+john --format=Raw-MD5 --wordlist=/usr/share/wordlists/rockyou.txt 'hash1_1601657952696.txt'
+```
++ secret123
+
+![image](https://github.com/user-attachments/assets/139e37b7-5782-41f9-beba-24560533f28c)
+
+SSH as sarah using: sarah@[10.10.200.9] and use the password: rainbowtree1230x
+What is the hash type stored in the file hashA.txt
+
+```
+ssh sarah@10.10.200.9
+find / -type f -name hashA.txt 2>/dev/null
+cp sarah@10.10.200.9:"/home/sarah/system AB/server_mail/server settings/hashA.txt" hashA.txt
+hash-identifier
+```
+
++ MD4
+
+![image](https://github.com/user-attachments/assets/450b73b7-b3e7-47e5-81e3-856a6da7ad16)
+
+Crack hashA.txt using john the ripper, what is the password?
+
+`john --format=Raw-MD4 --wordlist=/usr/share/wordlists/rockyou.txt hashA.txt `
++ admin
+
+![image](https://github.com/user-attachments/assets/73688cb9-9f97-4b9c-ba60-6334622a39f5)
+
