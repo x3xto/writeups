@@ -75,3 +75,8 @@ ls
 ```
 ![image](https://github.com/user-attachments/assets/04af778d-4311-4313-b0e6-1861cb22a72d)
 
+*Well, that error made me thinking, what if I'll try execute bash script from another directory which contains -MoveMe.txt file.*
+
+![image](https://github.com/user-attachments/assets/2b63aa96-28d3-41f7-bd1b-b889d17615b6)
+
+*Yep. Good to know.*
