@@ -156,10 +156,10 @@ john --format=Raw-MD4 --wordlist=/usr/share/wordlists/rockyou.txt ent.txt
 #### Now try it for yourself. Make a random text file and enter some readable sentences in there before encrypting and decrypting it as illustrated above.
 
 #### You wish to encrypt a file called history_logs.txt using the AES-128 scheme. What is the full command to do this?
-+ gpg --cipher-algo AES-128 --symmetric history_logs.txt
++ `gpg --cipher-algo AES-128 --symmetric history_logs.txt`
 
 #### What is the command to decrypt the file you just encrypted?
-+ gpg history_logs.txt.gpg
++ `gpg history_logs.txt.gpg`
 
 #### Find an encrypted file called layer4.txt, its password is bob. Use this to locate the flag. What is the flag?
 + Flag{B07$f854f5ghg4s37}
@@ -189,4 +189,5 @@ john --wordlist=data_r.txt --format=gpg hashP
 
 ![image](https://github.com/user-attachments/assets/a2ebb907-c5b5-4029-ad5c-12f567d6c774)
 
+### Task 8
 
