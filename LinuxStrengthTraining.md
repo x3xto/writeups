@@ -193,6 +193,7 @@ john --wordlist=data_r.txt --format=gpg hashP
 
 #### Find a file called employees.sql and read the SQL database. (Sarah and Sameer can log both into mysql using the password: password). Find the flag contained in one of the tables. What is the flag?
 + Flag{13490AB8}
+
 ![image](https://github.com/user-attachments/assets/dde2bf80-e9ee-4394-947b-8639d6fa1846)
 
 `SELECT * FROM employees WHERE first_name = "Lobel";`
