@@ -191,3 +191,50 @@ john --wordlist=data_r.txt --format=gpg hashP
 
 ### Task 8
 
+#### Find a file called employees.sql and read the SQL database. (Sarah and Sameer can log both into mysql using the password: password). Find the flag contained in one of the tables. What is the flag?
++ Flag{13490AB8}
+![image](https://github.com/user-attachments/assets/dde2bf80-e9ee-4394-947b-8639d6fa1846)
+
+`SELECT * FROM employees WHERE first_name = "Lobel";`
+
+### Task 9
+
+#### Go to the /home/shared/chatlogs directory and read the first chat log named: LpnQ. Use this to help you to proceed to the next task.
+![image](https://github.com/user-attachments/assets/f240878a-73d0-422f-adb6-c6479c4fb2ee)
+
+#### What is Sameer's SSH password?
++ thegreatestpasswordever000
+
+![image](https://github.com/user-attachments/assets/36221bda-4864-4c49-9387-3b2af7b403da)
+
+#### What is the password for the sql database back-up copy
++ ebqattle
+
+![image](https://github.com/user-attachments/assets/8dc76da7-200a-49d7-9c4f-5e695d8fba80)
+![image](https://github.com/user-attachments/assets/4c364fb1-1a07-49fc-b6f4-f00c38b1920f)
+![image](https://github.com/user-attachments/assets/ea4de24e-62c7-4b64-953a-a9ba3b239330)
+![image](https://github.com/user-attachments/assets/147c7107-05b0-4886-a17b-ce97300d52d8)
+
+*brute-forcing manually, 'cause I'm too lazy to search for another way.*
+
+![image](https://github.com/user-attachments/assets/c89c21de-3c60-47fe-a506-ecb418eb677a)
+
+#### Find the SSH password of the user James. What is the password?
++ vuimaxcullings
+
+![image](https://github.com/user-attachments/assets/0229836c-cb80-4ddd-97a2-caec050bb1de)
+
+```
+unzip 2020-08-13.zip
+cd 2020-08-13/
+grep James *
+```
+
+#### SSH as james and change the user to root?
+![image](https://github.com/user-attachments/assets/1b405a5e-cf58-4be7-9620-4944996699cd)
+![image](https://github.com/user-attachments/assets/e85a2976-8b18-42c5-8756-74a6576c25b0)
+
+#### What is the root flag?
++ Flag{6$8$hyJSJ3KDJ3881}
+
+![image](https://github.com/user-attachments/assets/905cebfe-2de8-4890-9123-76c9c649a5ae)
